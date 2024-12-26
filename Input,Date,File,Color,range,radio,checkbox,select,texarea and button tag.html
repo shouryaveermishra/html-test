@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/contact.me">
+      Date: <input type="date"><br>
+      file: <input type="file"><br>
+      Color: <input type="color"><br>
+      Price Range: <input type="range"><br>
+      <h3>What is your gender</h3>
+      <label for="Male">Male:</label>
+     <input type="radio" id="Male" name="gender" value="Male"><br>
+     <label for="Female">Female:</label>
+     <input type="radio" id="Female" name="gender" value="Female"><br>
+     <label for="Other">Other:</label>
+     <input type="radio" id="Other" name="gender" value="Other"><br>
+     <h3>In which language you are better</h3>
+     <label for="c">C:</label>
+     <input type="checkbox" name="lang" id="C" value="C"><br>
+     <label for="c++">C++:</label>
+     <input type="checkbox" name="lang" id="C++" value="C++"><br>
+     <label for="Java">Java:</label>
+     <input type="checkbox" name="lang" id="Java" value="java"><br>
+     <h2>Select your country</h2>
+     <label for="country"></label>
+     <select name="country" id="country">
+         <option value="India">India</option>
+         <option value="US">US</option>
+         <option value="UK">UK</option>
+         <option value="Other">Other</option>
+     </select>
+     <hr>
+     <textarea name="story" id="story" cols="20" rows="4">
+      Please write the story
+     </textarea>
+     <hr>
+      Poke Me: <input type="button" value="ClickMe"><br>
+      Submit: <input type="submit" value="submit"><br>
+    </form>
+</body>
+</html>
